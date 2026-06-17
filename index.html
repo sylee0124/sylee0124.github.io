@@ -201,6 +201,9 @@
   .theme p{font-size:14.5px;color:var(--ink-soft);margin:0;line-height:1.55;}
   .theme .kw{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;}
   .theme .kw span{font-family:var(--mono);font-size:11px;color:var(--muted);border:1px solid var(--line-strong);padding:3px 8px;border-radius:6px;}
+  .theme p b{color:var(--ink);font-weight:600;}
+  .sec-lead{max-width:760px;margin:-6px 0 34px;font-size:clamp(16px,2vw,18px);line-height:1.55;color:var(--ink-soft);}
+  .sec-lead b{color:var(--ink);font-weight:600;}
 
   /* publications ledger */
   .pub-group{margin-top:6px;}
@@ -382,24 +385,25 @@
       <h2 class="sec-title">Research</h2>
       <span class="sec-note">hardware ↔ kernel ↔ framework ↔ model</span>
     </div>
+    <p class="sec-lead">I develop <b>novel acceleration techniques for fundamental operations</b>, primarily through <b>hardware–software co-design</b>, paving the way for more efficient and scalable adoption of critical applications.</p>
     <div class="themes">
       <div class="theme">
         <div class="t-num">/01</div>
-        <h3>Hardware–software co-design</h3>
-        <p>Building accelerators that span the full stack — from hardware design and Linux kernel modifications to software-stack and DNN model changes — to remove bottlenecks no single layer can fix.</p>
-        <div class="kw"><span>RTL · Chisel</span><span>Kernel</span><span>Accelerators</span></div>
+        <h3>AI for Science — MLIPs</h3>
+        <p>Accelerating <b>Machine Learning Interatomic Potentials</b> by targeting the <b>tensor product</b> — the core and most expensive operation in equivariant neural networks — through custom GPU kernel design.</p>
+        <div class="kw"><span>MLIP</span><span>Tensor product</span><span>Equivariant NN</span><span>GPU kernels</span></div>
       </div>
       <div class="theme">
         <div class="t-num">/02</div>
-        <h3>Accelerating deep neural networks</h3>
-        <p>Optimizing a wide range of models — traditional CNNs, large language models, and emerging architectures — with a focus on the memory-bound operations that dominate their runtime.</p>
-        <div class="kw"><span>LLMs</span><span>MLIP</span><span>Long-sequence</span><span>Fused kernels</span></div>
+        <h3>State space models</h3>
+        <p>Designing a dedicated <b>hardware accelerator</b> with a fused kernel for scalable inference of <b>state space models</b>, a promising architecture for efficient long-sequence modeling.</p>
+        <div class="kw"><span>SSM</span><span>Long-sequence</span><span>HW accelerator</span><span>Fused kernel</span></div>
       </div>
       <div class="theme">
         <div class="t-num">/03</div>
-        <h3>Beyond DNNs</h3>
-        <p>Extending acceleration to other workloads, including inverted-index and storage-class-memory search, and fast application switching on mobile devices.</p>
-        <div class="kw"><span>Search</span><span>SCM</span><span>Mobile / Android</span></div>
+        <h3>Full-stack acceleration</h3>
+        <p>Earlier, accelerating a broad range of workloads — <b>LLMs, CNNs</b>, inverted-index search, and mobile application switching — with full-stack expertise from hardware design and the Linux kernel to software-stack and DNN-model optimization.</p>
+        <div class="kw"><span>LLMs · CNNs</span><span>Search</span><span>Mobile / Android</span><span>Kernel ↔ HW</span></div>
       </div>
     </div>
   </div>
@@ -555,7 +559,8 @@
             <div class="tl-when">2015 — 2020</div>
             <div class="tl-role">B.S., Chemistry and Computer Science &amp; Engineering</div>
             <div class="tl-org">Seoul National University · GPA 3.89 / 4.3</div>
-            <div class="tl-sub">Minor in Biological Sciences · <b>Cum Laude</b>.</div>
+            <div class="tl-sub">Minor in Biological Sciences.</div>
+            <span class="pill-award">★ Cum Laude</span>
           </div>
         </div>
       </div>
