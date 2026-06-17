@@ -7,14 +7,11 @@
 <meta name="description" content="Seung Yul Lee — researcher in computer architecture, ML systems, and hardware–software co-design for accelerating deep neural networks." />
 
 <!-- ============================================================
-     CUSTOMIZE BEFORE DEPLOY:
-       - Replace the href="#" placeholders below with your real
-         LinkedIn / GitHub / Google Scholar URLs (search for "EDIT:").
-       - Drop a headshot at ./assets/portrait.jpg to enable the photo
-         (otherwise the monogram placeholder shows automatically).
-     DEPLOY:
-       - Put this file as index.html in a repo named
-         <username>.github.io  (or enable Pages on any repo).
+     STATUS: social links (Scholar / GitHub / LinkedIn) are filled in.
+     PHOTO:  upload a square-ish headshot named  portrait.jpg  into the
+             repo root (same folder as index.html). It loads automatically
+             and replaces the "SL" monogram — no code change needed.
+     DEPLOY: keep this file as index.html in  sylee0124.github.io
      ============================================================ -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -214,7 +211,7 @@
     display:flex;justify-content:space-between;
   }
   .pub{
-    display:grid;grid-template-columns:max-content minmax(0,1fr);gap:24px;
+    display:grid;grid-template-columns:132px minmax(0,1fr);gap:28px;
     padding:22px 6px;border-bottom:1px solid var(--line);
     transition:background .18s ease;
   }
@@ -227,7 +224,7 @@
     font-family:var(--mono);font-size:11.5px;font-weight:600;letter-spacing:.02em;
     color:var(--accent-ink);background:var(--accent-soft);
     border:1px solid color-mix(in srgb,var(--accent) 20%,transparent);
-    padding:3px 8px;border-radius:6px;width:fit-content;
+    padding:3px 8px;border-radius:6px;width:fit-content;white-space:nowrap;
   }
   .pub-title{font-family:var(--display);font-size:18px;font-weight:600;letter-spacing:-.01em;line-height:1.3;}
   .pub-authors{font-size:13.5px;color:var(--muted);margin-top:6px;line-height:1.5;}
